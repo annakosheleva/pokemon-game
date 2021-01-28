@@ -27,17 +27,33 @@
     <title>React App</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    
+    <header class="root">
+      <div class="forest"></div>
+      <div class="container">
+          <h1>This is title</h1>
+          <p>This is Description!</p>
+      </div>
+  </header>
+  <section class="root" id="<-- ЗДЕСЬ props.id -->">
+    <div class="wrapper">
+        <article>
+            <div class="title">
+                <h3><-- ЗДЕСЬ props.title --></h3>
+                <span class="separator"></span>
+            </div>
+            <div class="desc full">
+                <p><-- ЗДЕСЬ props.desc --></p>
+            </div>
+        </article>
+    </div>
+</section>
+<footer>
+  <div class="wrapper">
+      <h3>THANKS FOR VISITING</h3>
+      <p>© 2021 #ReactMarathon.</p>
+  </div>
+</footer>
+    
   </body>
 </html>
